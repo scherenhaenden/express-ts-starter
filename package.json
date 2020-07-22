@@ -12,7 +12,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "lint:fix-dry": "eslint --ext .ts ./ --fix-dry-run",
-    "prettier:fix": "npm run prettier:base -- --write \"src/**/*.ts\"",
+    "prettier:fix": "prettier --parser typescript --write \"src/**/*.ts\"",
     "pree2e": "webdriver-manager update",
     "start": "nodemon -V --exec ts-node src/main.ts"
   },
