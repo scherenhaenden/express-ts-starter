@@ -14,7 +14,7 @@
   <li>Clone or download</li>
   <li>Yarn install/npm install</li>
   <li>npm start</li>
-  <li>http://localhost:40401/</li>
+  <li>http://localhost:5000/</li>
   </ul>
 
 <br/>
